@@ -197,6 +197,7 @@ const createCard = (data) => {
     cardFooter.appendChild(productCountInput);
     cardFooter.appendChild(incraseBtn);
 
+    
     return col4;
 
 };
@@ -217,6 +218,7 @@ const createListItem = (text) => {
     listItem.textContent = text;
     return listItem;
 };
+
 
 const showFilteredProducts = (filteredProducts) => {
     let dvProducts = document.getElementById('dvProducts');
